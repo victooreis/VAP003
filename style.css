@@ -1,0 +1,52 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: 580px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 35px;
+  line-height: 56px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color :#3F3D56;
+}
+
+h1 span {
+  color: #EE24FF;
+  font-weight: bold;
+}
+
+p {
+  color: #828282;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+p span, a {
+  font-weight: bold;
+  color :#3F3D56;
+}
+
+#footer a + a {
+  margin-left: 60px;
+}
+
+#image_footer figure img {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100; /* Maintain aspect ratio */
+  position: fixed; /* Fixed position so it spans the entire width */
+  left: 0; /* Align to the left edge of the viewport */
+  right: 0;
+  bottom: 0; /* Align to the bottom edge of the viewport */
+  z-index: -1; /* Send the image to the background */
+}
